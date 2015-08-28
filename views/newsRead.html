@@ -1,0 +1,11 @@
+<div class="about_top"> <div class="container"> <div class="about"> <div class="col-md-12"> <h3 class="news margin-bottom-sm">{{ 'news' | translate }}</h3> <p class="newsP margin-bottom-lg">{{ 'newsSubtitle' | translate }}</p> <ul class="list-group"> <li class="list-group-item" ng-repeat="n in news"> <h3>{{n.title}}</h3> <div ng-bind-html="n.content"></div> </li> </ul> <!--<div class="row margin-bottom-lg" ng-repeat="n in news">
+          <div class="col-md-2">
+
+          </div>
+          <div class="col-md-10 newsContent">
+            <h4>{{ new.title }}</h4>
+            <p>{{ new.content }}</p>
+          </div>
+        </div>
+      <div class="clearfix"> </div>
+    </div>--> </div> </div> </div></div>

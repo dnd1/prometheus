@@ -1,0 +1,12 @@
+<!doctype html> <html class="no-js"> <head> <base href="/"> <meta charset="utf-8"> <meta name="fragment" content="!"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.62496a78.css"> <link rel="stylesheet" href="styles/main.332f66bf.css">  <body ng-app="prometheusApp"> <!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+<![endif]--> <div class="header" ng-controller="HeaderCtrl" ng-show="show"> <div class="col-xs-4"> <div class="logo"> <a href="index.html"><img class="img-responsive" src="images/logo_rentahouse.87e0b50c.png" alt=""></a> </div> </div> <div class="col-xs-8 header_right"> <span class="menu"></span> <div class="top-menu"> <ul> <li><a dnd-mark-active="/" class="active scroll" href="#/home"><i class="fa fa-home"> </i>{{ 'home' | translate }}</a></li> <li><a dnd-mark-active="aboutUs" href="#/aboutUs"><i class="fa fa-star"> </i> {{ 'aboutUs' | translate }}</a> </li> <li><a dnd-mark-active="/internationalProjects" href="#/internationalProjects"><i class="fa fa-star"> </i> {{ 'international' | translate }}</a></li> <li><a dnd-mark-active="/contactUs" href="#/contactUs"><i class="fa fa-envelope-o"> </i>{{ 'contactUs' | translate }}</a></li> <li><a dnd-mark-active="/news" href="#/news"><i class="fa fa-envelope-o"> </i>{{ 'news' | translate }}</a></li> <div class="clearfix"></div> </ul> </div> </div> <div class="clearfix"></div> </div> <div ng-view=""></div> <div class="copy"> {{ 'rights' | translate }} <a href="{{ 'companyUrl' | translate }}">{{ 'company' | translate }}</a> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>!function (A, n, g, u, l, a, r) {
+    A.GoogleAnalyticsObject = l, A[l] = A[l] || function () {
+      (A[l].q = A[l].q || []).push(arguments)
+    }, A[l].l = +new Date, a = n.createElement(g),
+      r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+  }(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-XXXXX-X');
+  ga('send', 'pageview');</script> <script src="scripts/vendor.cbc1d3d2.js"></script> <!-- miscelaneus --> <script src="bower_components/blueimp-gallery/js/jquery.blueimp-gallery.min.js"></script> <script src="scripts/scripts.185b2399.js"></script>  
